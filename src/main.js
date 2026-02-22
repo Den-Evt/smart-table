@@ -29,7 +29,8 @@ function collectState() {
     return {                                            // расширьте существующий return вот так
         ...state,
         rowsPerPage,
-        page
+        page,
+        total
     }; 
 }
 
